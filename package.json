@@ -1,6 +1,6 @@
 {
   "name": "dummy-cli-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Testing my base repo - ignore this.",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "pika build",
     "lint": "tslint --project .",
-    "publish": "pika publish",
+    "release": "pika publish",
     "prestart": "yarn build",
     "start": "node pkg/dist-node/index.bin.js",
     "test": "jest --passWithNoTests",
