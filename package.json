@@ -14,8 +14,7 @@
     "start": "node pkg/dist-node/index.bin.js",
     "test": "jest --passWithNoTests",
     "test:coverage": "jest --coverage",
-    "version": "pika build",
-    "postinstall": "apt-get update"
+    "version": "pika build"
   },
   "author": "Jake Klassen <jklassendev@gmail.com>",
   "license": "MIT",
